@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>The Dinner Genius</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Noto+Serif+TC" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+      <div class="center">
+        <h1>Welcome to The Dinner Genius!</h1>
+          <p>Dinner is on us... well, at least the ideas.  Which, afterall, is the hardest part, right?</p>
+          <p> Enter some ingredients you have on hand and a calorie range if desired. </p> 
+          <p>We'll work our magic, and we'll even suggest a wine pairing.  Genius.  </p>
+          <p>Enjoy!</p>
+
+        <form id="js-form">
+        <h3>Step 1:  Enter some ingredients.
+        </h3>
+           
+        <label for="ingredent1">What's In Your Fridge or Cupboard?</label><br>
+        <input type="text" name="ingredient1" id="ingredient1" value="chicken">
+        <input type="text" name="ingredient2" id="ingredient2" value="kale" >
+
+        <br>
+
+             
+        <h3>Step 2: Add a Calorie Range.</h3>
+        
+        <label for="minCal"> Minimum Calories Desired   </label>
+        <input type="text" name="minCal" id="minCal" value="300" required>
+        
+        <br> 
+
+        <label for="maxCal">Maximum Calories Desired</label>
+        <input type="text" name="maxCal" id="maxCal" value="600" required>
+        
+        <br>
+            
+        <h3>Step 3: Get Busy Cooking!</h3>
+        <input type="submit" value="Find a Genius Recipe" id="button" >
+       
+        
+        </form>
+
+        <br><br>
+    </div>
+
+   
+    <p id="js-error-message" class="error-message"></p>
+     
+    <section id="results" class="hidden">
+      <h2>Genius Dinner Suggestions:</h2>
+      <section class="card"></section>
+      <h2>Wine Pairing Suggestions:</h2>
+      <section class="wine"></section>
+    </section>
+    <br> <br> <br> <br>
+    <div class="poweredby">
+      <br>
+    <p>This app is powered by
+    <img src="Edamam.jpg" alt = "Edamam logo"> and 
+     <img src="Spoonacular.jpg" alt = "Spoonacular logo"> </p>
+    </div>
+    
+  <script src="index.js"></script>
+</body>
+</html>

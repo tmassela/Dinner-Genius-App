@@ -1,0 +1,118 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Noto Serif TC', serif;
+  font-size: 18px;
+  background-image: url("lemonlime-2.jpg");
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.container {
+  max-width: 98%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.center {
+    display: inline-block;
+}
+
+.error-message {
+    color: red;
+}
+
+.hidden {
+  display: none;
+}
+
+li {
+  list-style-type: none;
+}
+
+p {
+  margin: 0;
+}
+
+
+
+
+#button {
+  background-color: #f4511e;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  opacity: 0.6;
+  transition: 0.3s;
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+#button:hover {opacity: 1}
+
+input[type=text] {
+    background-color: white;
+    background-image: url('searchicon.png');
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding-left: 40px;
+    border-radius: 4px;
+    width: 40%;
+    padding: 12px 12px;
+    margin-top: 10px;
+  }
+
+input[type=text]:focus {
+  background-color: rgb(252, 248, 6);
+
+}
+
+.card {
+  background-color: #fff;
+  min-width: 100%;
+  min-height: 200px;
+  display: flex;
+  overflow-x: auto;
+}
+
+.card--content {
+  background-color: white;
+  min-width: 250px;
+  margin: 5px;
+}
+
+img {
+  height: 200px;
+  width: 200px;
+}
+
+
+.poweredby img {
+  height: 50px;
+  width: 150px; 
+}
+
+#results {
+    width: 100%;
+    background-color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.wine {
+    padding-right: 100px;
+    padding-left: 100px;
+}
+
+
+
