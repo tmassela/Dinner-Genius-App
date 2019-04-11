@@ -11,6 +11,7 @@ function formatQueryParams(params) {
    "&calories=" + params.calories;
   
   return queryItems;
+  console.log(queryItems);
 };
 
 function displayResults(responseJson) {
@@ -61,8 +62,7 @@ function getRecipes(ingredient1, ingredient2, minCal, maxCal) {
     q: ingredient1 + "," + ingredient2,
     calories:  minCal + "-" + maxCal,
     app_id: "1c394cbb",
-    app_key: "ac7db2992d579f7cb37de04d937df51b" 
-   
+    app_key: "ac7db2992d579f7cb37de04d937df51b",
   }
 
   const queryString = formatQueryParams(params);
@@ -124,7 +124,7 @@ function watchForm() {
     const ingredient2 = $('#ingredient2').val();
     const minCal = $('#minCal').val();
     const maxCal = $('#maxCal').val();
-
+    
     getRecipes(ingredient1, ingredient2, minCal, maxCal);
     getWinePair(ingredient1);
   });
