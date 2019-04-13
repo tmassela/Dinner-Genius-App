@@ -1,6 +1,5 @@
 'use strict';
 
-// put your own value below!
 const searchURL ='https://api.edamam.com/search';
 
 function formatQueryParams(params) {
