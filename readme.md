@@ -1,7 +1,9 @@
 Dinner Genius App
 =================
 
-![Screen Shot](Dinner Genius App Screen Shot.jpg)  
+<img src="Dinner Genius App Screen Shot.jpg"
+     alt="Screenshot"
+     style="float: left; margin-right: 10px;" /> 
 
 Motivation:  
 ------------
