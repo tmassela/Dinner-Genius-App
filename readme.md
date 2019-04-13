@@ -1,9 +1,7 @@
 Dinner Genius App
 =================
 
-![alt text][id]
-
-[id]: Dinner Genius App Screen Shot.jpg  
+![Screen Shot](Dinner Genius App Screen Shot.jpg)  
 
 Motivation:  
 ------------
