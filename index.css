@@ -85,6 +85,10 @@ input[type=text]:focus {
   overflow-x: auto;
 }
 
+fieldset {
+  border: 0;
+}
+
 .card--content {
   background-color: white;
   min-width: 250px;
@@ -122,6 +126,19 @@ img {
     margin-left: auto;
     margin-right: auto;
   }
+
+  body {
+    padding: 20px;
+    font-size: 16px;
+  }
+
+  .wine {
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+#results {
+  padding: 20px;
 }
 
  

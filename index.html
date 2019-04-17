@@ -17,19 +17,22 @@
           <p> Enter some ingredients you have on hand and a calorie range if desired. </p> 
           <p>We'll work our magic, and we'll even suggest a wine pairing.  Genius.  </p>
           <p>Enjoy!</p>
+          <br>
 
-        <form id="js-form">
-        <h3>Step 1:  Enter some ingredients.
-        </h3>
+    <form id="js-form">
+      <fieldset>
+        <legend>Step 1:  Enter some ingredients.</legend>
+      
            
         <label for="ingredent1">What's In Your Fridge or Cupboard?</label><br>
         <input type="text" name="ingredient1" id="ingredient1" value="chicken">
         <input type="text" name="ingredient2" id="ingredient2" value="kale" >
+      </fieldset>
 
         <br>
 
-             
-        <h3>Step 2: Enter Desired Calorie Range.</h3>
+      <fieldset>      
+        <legend>Step 2: Enter Desired Calorie Range.</legend>
         
         <label for="minCal"> Minimum Calories Desired   </label>
         <input type="text" name="minCal" id="minCal" value="300" >
@@ -40,13 +43,13 @@
         <input type="text" name="maxCal" id="maxCal" value="600">
         
         <br>
-
-            
-        <h3>Step 3: Get Busy Cooking!</h3>
+      </fieldset>
+        <br>
+        <legend>Step 3: Get Busy Cooking!</legend>
         <input type="submit" value="Find a Genius Recipe" id="button" >
        
         
-        </form>
+      </form>
 
         <br><br>
     </div>
@@ -54,7 +57,7 @@
    
     <p id="js-error-message" class="error-message"></p>
      
-    <section id="results" class="hidden">
+    <section id="results" class="hidden" aria-live="polite">
       <h2>Genius Dinner Suggestions:</h2>
       <section class="card"></section>
       <h2>Wine Pairing Suggestions:</h2>

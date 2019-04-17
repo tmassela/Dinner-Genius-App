@@ -10,7 +10,6 @@ function formatQueryParams(params) {
    "&calories=" + params.calories;
   
   return queryItems;
-  console.log(queryItems);
 };
 
 function displayResults(responseJson) {
